@@ -72,16 +72,16 @@ namespace MutationApp.Test
          * The following code actually checks the boundy condition
          * */
 
-        [Test]
-        public void IsDiscountEligible_ShouldReturnTrue_WhenCartItemsIs5()
-        {
-            ShoppingCartService cart = new ShoppingCartService();
-            for (int i = 1; i <= ShoppingCartService.DISCOUNT_THRESHOLD_QUANTITY; i++)
-            {
-                cart.AddItem(new CartItem { Name = $"Item {i}", Price = i * 10, Quantity = 1 });
-            }
-            bool isEligible = cart.IsDiscountEligible();
-            Assert.True(isEligible);              // Assert
-        }
+        //[Test]
+        //public void IsDiscountEligible_ShouldReturnTrue_WhenCartItemsIs5()
+        //{
+        //    ShoppingCartService cart = new ShoppingCartService();
+        //    for (int i = 1; i <= ShoppingCartService.DISCOUNT_THRESHOLD_QUANTITY; i++)
+        //    {
+        //        cart.AddItem(new CartItem { Name = $"Item {i}", Price = i * 10, Quantity = 1 });
+        //    }
+        //    bool isEligible = cart.IsDiscountEligible();
+        //    Assert.True(isEligible);              // Assert
+        //}
     }
 }

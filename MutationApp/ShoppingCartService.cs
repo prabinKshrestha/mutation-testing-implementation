@@ -33,6 +33,7 @@ namespace MutationApp
         public decimal CalculateTotalPriceWithoutDiscount() => items.Select(item => item.Price * item.Quantity).Sum();
     }
 
+    /* Model Class to represent the Cart Item */
     public class CartItem
     {
         public string Name { get; set; }
