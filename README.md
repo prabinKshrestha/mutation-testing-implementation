@@ -223,7 +223,7 @@ You will see the run of this command similar to following.
 
 ![Survived Mutation Run](documentation/assets/survived-mutation-run.png)
 
-After executing the command mentioned above, the web page will open in the default browser, displaying the report as follows. You can preview the report on [Survived Example Mutation Report](https://htmlpreview.github.io/?https://github.com/prabinKshrestha/mutation-testing-implementation/documentation/assets/survived-mutation-run-mutation-report.html).
+After executing the command mentioned above, the web page will open in the default browser, displaying the report as follows. You can preview the report on [Survived Example Mutation Report](https://htmlpreview.github.io/?https://github.com/prabinKshrestha/mutation-testing-implementation/blob/05823188085d6c1e89df606065e34de7ac292fcc/documentation/assets/survived-mutation-run-mutation-report.html#mutant).
 
 ![Survived Mutation Report](documentation/assets/survived-mutation-run-report.png)
 
@@ -257,7 +257,7 @@ Rerun Stryker using the following command:
 dotnet tool run dotnet-stryker -o
 ```
 
-As before, after the run of the above command, it should open the web page with the following result. You can also preview the report on [All Killed Example Mutation Report](https://htmlpreview.github.io/?https://github.com/prabinKshrestha/mutation-testing-implementation/documentation/assets/all-killed-mutation-report.html).
+As before, after the run of the above command, it should open the web page with the following result. You can also preview the report on [All Killed Example Mutation Report](https://htmlpreview.github.io/?https://github.com/prabinKshrestha/mutation-testing-implementation/blob/05823188085d6c1e89df606065e34de7ac292fcc/documentation/assets/all-killed-mutation-report.html#mutant).
 
 ![Killed Mutation Report](documentation/assets/killed-mutation-run-report.png)
 
