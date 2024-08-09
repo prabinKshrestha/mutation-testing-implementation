@@ -1,8 +1,12 @@
-# Mutation Testing Implementation
+# Mutation Testing
 
-This repository contains an implementation of Mutation Testing for a C# project using Stryker.
+## 1. Background of Mutation Testing
 
-## 1. Prerequisites
+Mutation Testing is a technique to evaluate the effectiveness of your test suite by injecting faults (mutations) into your code and checking if your tests can detect those mutations. To learn more about Mutation Testing, refer to the detailed report in the repository: [Mutation Testing](documentation/mutation_analysis_report.pdf).
+
+Generating mutants can be a laborious task due to the potential creation of thousands of mutants when dealing with large and complex applications. Manual mutation testing under such circumstances becomes practically impossible. To address this challenge effectively, it is crucial to have automated mutant generation and the ability to test test suites against them. This is where specialized tools prove invaluable. In the case of C# codes, Stryker has been selected as the tool of choice to automate mutation testing and streamline the process efficiently.
+
+## 2. Prerequisites
 
 Before getting started, make sure you have the following installed:
 
@@ -35,12 +39,6 @@ To run the mutation testing using the stryker tool, execute the following comman
 ```
 dotnet tool run dotnet-stryker -o
 ```
-
-## 2. Background of Mutation Testing
-
-Mutation Testing is a technique to evaluate the effectiveness of your test suite by injecting faults (mutations) into your code and checking if your tests can detect those mutations. To learn more about Mutation Testing, refer to the detailed report in the repository: [Mutation Testing](documentation/mutation_analysis_report.pdf).
-
-Generating mutants can be a laborious task due to the potential creation of thousands of mutants when dealing with large and complex applications. Manual mutation testing under such circumstances becomes practically impossible. To address this challenge effectively, it is crucial to have automated mutant generation and the ability to test test suites against them. This is where specialized tools prove invaluable. In the case of C# codes, Stryker has been selected as the tool of choice to automate mutation testing and streamline the process efficiently.
 
 ## 3. Implementation
 
